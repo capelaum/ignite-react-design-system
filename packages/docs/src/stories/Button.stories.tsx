@@ -15,7 +15,7 @@ export default {
 
 export const Primary: StoryObj<ButtonProps> = {}
 
-export const Secodnary: StoryObj<ButtonProps> = {
+export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
     children: 'Create',

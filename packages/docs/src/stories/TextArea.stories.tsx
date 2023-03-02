@@ -18,7 +18,7 @@ export default {
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
           <Text size="sm">Comment</Text>
-          <Story />
+          {Story()}
         </Box>
       )
     },
