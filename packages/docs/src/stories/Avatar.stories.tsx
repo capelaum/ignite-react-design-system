@@ -11,6 +11,14 @@ export default {
     src: 'https://github.com/capelaum.png',
     alt: 'Capelaum',
   },
+  argTypes: {
+    src: {
+      control: { type: 'text' },
+    },
+    alt: {
+      control: { type: 'text' },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
@@ -18,5 +26,6 @@ export const Primary: StoryObj<AvatarProps> = {}
 export const Fallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
+    alt: undefined,
   },
 }
