@@ -1,6 +1,14 @@
 # Ignite React - Módulo 5 - Design System
 
-# Components
+Um Design System de componentes em React, utilizando Turbo Repo!
+
+Feito para o projeto do Ignite Call do módulo seguinte.
+
+## Docs
+
+[Storybook](https://capelaum.github.io/ignite-react-design-system)
+
+## Components
 
 - [x] Text
 - [x] Heading
