@@ -22,6 +22,7 @@ jobs:
       - run: npm run build
         env:
           TURBO_TOKEN: msZRVKhyPNtrwAOsfnXUHMpr
+          TURBO_TEAM: capelaum
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
