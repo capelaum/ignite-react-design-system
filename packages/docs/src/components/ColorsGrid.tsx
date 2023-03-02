@@ -1,4 +1,4 @@
-import { colors } from '@capelaum/ignite-react-05-design-system-tokens'
+import { colors } from '@capelaum-packages/ignite-react-05-design-system-tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

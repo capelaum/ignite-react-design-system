@@ -1,7 +1,7 @@
 import {
   Button,
   ButtonProps,
-} from '@capelaum/ignite-react-05-design-system-react'
+} from '@capelaum-packages/ignite-react-05-design-system-react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
 

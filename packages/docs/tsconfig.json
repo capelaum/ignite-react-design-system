@@ -1,5 +1,5 @@
 {
-  "extends": "@capelaum/ignite-react-05-design-system-ts-config/react.json",
+  "extends": "@capelaum-packages/ignite-react-05-design-system-ts-config/react.json",
   "include": ["src"],
   "compilerOptions": {
     "outDir": "dist",

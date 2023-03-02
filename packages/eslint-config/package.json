@@ -1,5 +1,5 @@
 {
-  "name": "@capelaum/ignite-react-05-design-system-eslint-config",
+  "name": "@capelaum-packages/ignite-react-05-design-system-eslint-config",
   "license": "MIT",
   "private": true,
   "main": "index.js",

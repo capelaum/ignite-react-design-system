@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@capelaum/ignite-react-05-design-system-tokens'
+} from '@capelaum-packages/ignite-react-05-design-system-tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

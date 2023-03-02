@@ -3,7 +3,7 @@ import {
   Text,
   TextArea,
   TextAreaProps,
-} from '@capelaum/ignite-react-05-design-system-react'
+} from '@capelaum-packages/ignite-react-05-design-system-react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
