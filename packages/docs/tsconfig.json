@@ -1,0 +1,12 @@
+{
+  "extends": "@capelaum/ignite-react-05-design-system-ts-config/react.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}
