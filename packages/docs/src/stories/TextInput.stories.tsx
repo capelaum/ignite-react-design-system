@@ -9,7 +9,16 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    disabled: false,
+    sizeValue: 'md',
+  },
+  argTypes: {
+    sizeValue: {
+      options: ['sm', 'md'],
+      control: { type: 'inline-radio' },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -41,5 +50,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'username',
   },
 }
