@@ -1,6 +1,7 @@
 {
   "name": "@capelaum-packages/ignite-react-05-design-system-eslint-config",
   "license": "MIT",
+  "version": "2.0.0",
   "private": true,
   "main": "index.js",
   "devDependencies": {
