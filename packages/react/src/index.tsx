@@ -1,18 +1,32 @@
-import { colors } from '@capelaum/ignite-react-05-design-system-tokens'
+import { ComponentProps } from 'react'
 import { styled } from '~/styles/stitches.config'
 
-const Button = styled('button', {
+export const Button = styled('button', {
   fonsFamily: '$default',
-  padding: '$4',
+  fontWeight: '$bold',
+  cursor: 'pointer',
+  border: 'none',
   borderRadius: '$md',
-  backgroundColor: '$ignite500',
+
+  color: '$white',
+  backgroundColor: '$ignite300',
+
+  variants: {
+    size: {
+      small: {
+        fontSize: '$sm',
+        padding: '$2 $4',
+      },
+      big: {
+        fontSize: '$lg',
+        padding: '$3 $6',
+      },
+    },
+  },
+
+  defaultVariants: {
+    size: 'small',
+  },
 })
 
-export function App() {
-  return (
-    <>
-      <h1 style={{ color: colors.ignite300 }}>Hello React</h1>
-      <Button>Test</Button>
-    </>
-  )
-}
+export type ButtonProps = ComponentProps<typeof Button>
