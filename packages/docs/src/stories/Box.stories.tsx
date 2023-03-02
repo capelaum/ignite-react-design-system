@@ -26,6 +26,6 @@ export const CustomTag: StoryObj<BoxProps> = {
         <Text>Testando o elemento Box</Text>
       </>
     ),
-    as: 'p',
+    as: 'section',
   },
 }
