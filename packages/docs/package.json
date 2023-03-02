@@ -25,10 +25,11 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "@capelaum/ignite-react-05-design-system-ts-config": "*",
     "@capelaum/ignite-react-05-design-system-eslint-config": "*",
     "@capelaum/ignite-react-05-design-system-react": "*",
     "@capelaum/ignite-react-05-design-system-tokens": "*",
+    "@capelaum/ignite-react-05-design-system-ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

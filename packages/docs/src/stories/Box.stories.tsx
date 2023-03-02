@@ -11,7 +11,7 @@ export default {
   args: {
     children: (
       <>
-        <Text>Testando o elemento Box</Text>
+        <Text>Testing the Box Component.</Text>
       </>
     ),
   },
@@ -23,7 +23,7 @@ export const CustomTag: StoryObj<BoxProps> = {
   args: {
     children: (
       <>
-        <Text>Testando o elemento Box</Text>
+        <Text>Testing the Box Component.</Text>
       </>
     ),
     as: 'section',
