@@ -1,4 +1,8 @@
-import { Box, BoxProps } from '@capelaum/ignite-react-05-design-system-react'
+import {
+  Box,
+  BoxProps,
+  Text,
+} from '@capelaum/ignite-react-05-design-system-react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -7,10 +11,21 @@ export default {
   args: {
     children: (
       <>
-        <span>Testando o elemento Box</span>
+        <Text>Testando o elemento Box</Text>
       </>
     ),
   },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
+
+export const CustomTag: StoryObj<BoxProps> = {
+  args: {
+    children: (
+      <>
+        <Text>Testando o elemento Box</Text>
+      </>
+    ),
+    as: 'p',
+  },
+}
