@@ -2,7 +2,7 @@ import { ComponentProps } from 'react'
 import { styled } from '~/styles/stitches.config'
 
 export const Button = styled('button', {
-  fonsFamily: '$default',
+  fontFamily: '$default',
   fontWeight: '$bold',
   cursor: 'pointer',
   border: 'none',
