@@ -10,7 +10,8 @@ export default {
   title: 'Data Display/Tool Tip',
   component: ToolTip,
   args: {
-    children: <Button>Test</Button>,
+    variant: 'primary',
+    children: <Button>View ToolTip</Button>,
     text: 'This is a tooltip',
   },
   argTypes: {},
@@ -35,3 +36,15 @@ export default {
 } as Meta<ToolTipProps>
 
 export const Primary: StoryObj<ToolTipProps> = {}
+
+export const Secondary: StoryObj<ToolTipProps> = {
+  args: {
+    variant: 'secondary',
+  },
+}
+
+export const Tertiary: StoryObj<ToolTipProps> = {
+  args: {
+    variant: 'tertiary',
+  },
+}

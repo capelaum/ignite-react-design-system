@@ -23,14 +23,11 @@ const slideLeftAndFade = keyframes({
 
 export const TooltipContent = styled(Tooltip.Content, {
   borderRadius: '$xs',
-  padding: '10px 15px',
+  padding: '$3 $4',
   fontSize: '$sm',
-  lineHeight: '$base',
+  lineHeight: '$shorter',
   fontFamily: '$default',
   fontWeight: '$medium',
-
-  color: '$gray100',
-  backgroundColor: '$gray900',
 
   boxShadow:
     'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
@@ -44,8 +41,49 @@ export const TooltipContent = styled(Tooltip.Content, {
     '&[data-side="bottom"]': { animationName: slideUpAndFade },
     '&[data-side="left"]': { animationName: slideRightAndFade },
   },
+
+  variants: {
+    variant: {
+      primary: {
+        color: '$gray100',
+        backgroundColor: '$gray900',
+      },
+
+      secondary: {
+        color: '$gray100',
+        backgroundColor: '$ignite500',
+      },
+
+      tertiary: {
+        color: '$gray900',
+        backgroundColor: '$gray100',
+      },
+    },
+  },
+
+  defaultVariants: {
+    variant: 'primary',
+  },
 })
 
 export const TooltipArrow = styled(Tooltip.Arrow, {
-  fill: '$gray900',
+  variants: {
+    variant: {
+      primary: {
+        fill: '$gray900',
+      },
+
+      secondary: {
+        fill: '$ignite500',
+      },
+
+      tertiary: {
+        fill: '$gray100',
+      },
+    },
+  },
+
+  defaultVariants: {
+    variant: 'primary',
+  },
 })
