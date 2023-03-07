@@ -3,7 +3,7 @@ import { Input, Prefix, TextInputContainer } from './styles'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
-  sizeValue: 'sm' | 'md'
+  sizeValue?: 'sm' | 'md'
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
