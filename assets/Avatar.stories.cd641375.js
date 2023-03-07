@@ -1,0 +1,2 @@
+import{A as t}from"./index.5176f8cc.js";import"./index.2cc7806d.js";import"./iframe.7a32ca58.js";import"./index.0fa4f1c0.js";import"./jsx-runtime.1f485316.js";const c={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/capelaum.png",alt:"Capelaum"},argTypes:{src:{control:{type:"text"}},alt:{control:{type:"text"}}}},e={},l={args:{src:void 0,alt:void 0}},i=["Primary","Fallback"];export{l as Fallback,e as Primary,i as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.cd641375.js.map
